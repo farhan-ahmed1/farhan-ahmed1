@@ -5,7 +5,7 @@
 - 🌱 i'm currently in the process of a build a code coverage tool. stay tuned for that!
 - ⚡ fun fact: i can't think of one right now. (todo: update this)
 
-## `tech stack`
+## `skills`
 
 **Languages:**  
 ![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-rounded&logo=python&logoColor=white) ![Java](https://img.shields.io/badge/-Java-007396?style=flat-rounded&logo=java&logoColor=white) ![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat-rounded&logo=javascript&logoColor=black) ![TypeScript](https://img.shields.io/badge/-TypeScript-3178C6?style=flat-rounded&logo=typescript&logoColor=white) ![C#](https://img.shields.io/badge/-C%23-239120?style=flat-rounded&logo=c-sharp&logoColor=white)  
