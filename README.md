@@ -2,7 +2,7 @@
 
 ## `whoami`
 - 🎓 I'm a computer science student at Iowa State University.
-- 🌱 I'm currently in the process of buildng a code coverage tool. Stay tuned for that!
+- 🌱 I'm currently in the proces of buildng a code coverage tool. Stay tuned for that!
 - ⚡ Fun fact: I can't think of one right now. (todo: update this)
 
 ## `skills`
