@@ -1,9 +1,9 @@
 # howdy! 👋 i'm `farhan ahmed`
 
 ## `whoami`
-- 🎓 i'm a computer science student at iowa state university.
-- 🌱 i'm currently in the process of building a code coverage tool. stay tuned for that!
-- ⚡ fun fact: i can't think of one right now. (todo: update this)
+- 🎓 I'm a computer science student at Iowa State University.
+- 🌱 I'm currently in the process of building a code coverage tool. stay tuned for that!
+- ⚡ Fun fact: I can't think of one right now. (todo: update this)
 
 ## `skills`
 
