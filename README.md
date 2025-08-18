@@ -1,4 +1,4 @@
-# hey there! 👋 i'm `farhan ahmed`
+# howdy! 👋 i'm `farhan ahmed`
 
 ## `whoami`
 - 🎓 i'm a computer science student at iowa state university.
