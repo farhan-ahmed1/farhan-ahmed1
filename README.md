@@ -18,5 +18,5 @@
 ![Your GitHub stats](https://github-readme-stats.vercel.app/api?username=farhan-ahmed1&show_icons=true&theme=dark)
 
 ## `connect with me`
-[![Portfolio](https://img.shields.io/badge/-Portfolio-000000?style=flat-rounded&logo=react&logoColor=white)](https://farhan-ahmed.com/) 
+[![Portfolio](https://img.shields.io/badge/-Portfolio-000000?style=flat-rounded&logo=react&logoColor=white)](https://farhan-ahmed.com/)  
 [![LinkedIn](https://img.shields.io/badge/-LinkedIn-0077B5?style=flat-rounded&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/farhan-m-ahmed/)
