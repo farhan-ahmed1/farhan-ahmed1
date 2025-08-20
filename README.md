@@ -15,8 +15,10 @@
 ![PostgreSQL](https://img.shields.io/badge/-PostgreSQL-336791?style=flat-rounded&logo=postgresql&logoColor=white) ![MySQL](https://img.shields.io/badge/-MySQL-4479A1?style=flat-rounded&logo=mysql&logoColor=white) ![MongoDB](https://img.shields.io/badge/-MongoDB-47A248?style=flat-rounded&logo=mongodb&logoColor=white)
 
 ## `github stats`
-![Your GitHub stats](https://github-readme-stats.vercel.app/api?username=farhan-ahmed1&show_icons=true&theme=dark) ![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=farhan-ahmed1&theme=dark)
-
+<div align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=farhan-ahmed1&show_icons=true&theme=dark" alt="GitHub Stats" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=farhan-ahmed1&theme=dark" alt="GitHub Streak" />
+</div>
 
 ## `connect with me`
 [![Portfolio](https://img.shields.io/badge/-Portfolio-000000?style=flat-rounded&logo=react&logoColor=white)](https://farhan-ahmed.com/)  
