@@ -17,7 +17,8 @@
 ## `github stats`
 | Stats | Streak |
 | --- | --- |
-| ![Your GitHub stats](https://github-readme-stats.vercel.app/api?username=farhan-ahmed1&show_icons=true&theme=light) | ![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=farhan-ahmed1&theme=light) |
+| ![Your GitHub stats](https://github-readme-stats.vercel.app/api?username=farhan-ahmed1) | ![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=farhan-ahmed1) |
+
 
 ## `connect with me`
 [![Portfolio](https://img.shields.io/badge/-Portfolio-000000?style=flat-rounded&logo=react&logoColor=white)](https://farhan-ahmed.com/)  
