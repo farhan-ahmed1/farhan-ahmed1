@@ -1,9 +1,8 @@
 # howdy! 👋 i'm `farhan ahmed`
 
 ## `whoami`
-- 🎓 Computer Science @ Iowa State University.
-- 🌱 Building [`hancover-action`](https://github.com/farhan-ahmed1/hancover-action) - a code coverage tool 
-- ⚡ Fun fact: I can't think of one right now. (todo: update this)
+- Computer Science @ Iowa State University.
+- Building [`hancover-action`](https://github.com/farhan-ahmed1/hancover-action) - a code coverage tool 
 
 ## `skills`
 
