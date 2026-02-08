@@ -2,7 +2,8 @@
 
 ## `whoami`
 - Computer Science @ Iowa State University.
-- Building [`hancover-action`](https://github.com/farhan-ahmed1/hancover-action) - a code coverage tool 
+- Building [`hancover-action`](https://github.com/farhan-ahmed1/hancover-action) - a code coverage tool
+- Building [`sidrat`](https://www.sidratapp.com/) with [`Liban-Ahmed`](https://github.com/Liban-Ahmed)
 
 ## `skills`
 
