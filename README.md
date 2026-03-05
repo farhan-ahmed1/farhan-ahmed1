@@ -1,3 +1,5 @@
+[![Farhan Ahmed Banner](banner.svg)](https://farhan-ahmed.com/)
+
 # howdy! 👋 i'm `farhan ahmed`
 
 ## `whoami`

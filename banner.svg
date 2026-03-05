@@ -1,0 +1,111 @@
+<svg width="1200" height="420" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0d1117;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#161b22;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="textGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#2ea043;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#3fb950;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#2ea043;stop-opacity:1" />
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="2" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <filter id="ascii-glow">
+      <feGaussianBlur stdDeviation="0.6" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <!-- Dot grid -->
+    <pattern id="dots" x="0" y="0" width="30" height="30" patternUnits="userSpaceOnUse">
+      <circle cx="15" cy="15" r="1.2" fill="#2ea043" opacity="0.12"/>
+    </pattern>
+    <!-- Islamic geometric pattern -->
+    <pattern id="islamic-geo" x="0" y="0" width="60" height="60" patternUnits="userSpaceOnUse">
+      <path d="M30,0 L40,10 L30,20 L20,10 Z" fill="none" stroke="#2ea043" stroke-width="0.5" opacity="0.07"/>
+      <path d="M0,30 L10,40 L0,50 L-10,40 Z" fill="none" stroke="#2ea043" stroke-width="0.5" opacity="0.07"/>
+      <path d="M60,30 L70,40 L60,50 L50,40 Z" fill="none" stroke="#2ea043" stroke-width="0.5" opacity="0.07"/>
+      <path d="M30,60 L40,70 L30,80 L20,70 Z" fill="none" stroke="#2ea043" stroke-width="0.5" opacity="0.07"/>
+    </pattern>
+    <!-- Islamic star pattern -->
+    <pattern id="islamic-star" x="0" y="0" width="80" height="80" patternUnits="userSpaceOnUse">
+      <polygon points="40,8 44,20 56,20 46,28 50,40 40,32 30,40 34,28 24,20 36,20" fill="none" stroke="#2ea043" stroke-width="0.4" opacity="0.06"/>
+    </pattern>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="420" fill="url(#bgGrad)"/>
+  <rect width="1200" height="420" fill="url(#dots)"/>
+  <rect width="1200" height="420" fill="url(#islamic-geo)"/>
+  <rect width="1200" height="420" fill="url(#islamic-star)"/>
+
+  <!-- TERMINAL WINDOW -->
+  <rect x="170" y="50" width="860" height="325" rx="10" fill="#161b22" opacity="0.97"/>
+  <rect x="170" y="50" width="860" height="325" rx="10" fill="none" stroke="#30363d" stroke-width="1.5"/>
+  <!-- Title bar -->
+  <rect x="170" y="50" width="860" height="34" rx="10" fill="#21262d"/>
+  <rect x="170" y="70" width="860" height="14" fill="#21262d"/>
+  <!-- Traffic lights -->
+  <circle cx="197" cy="67" r="6" fill="#ff5f57"/>
+  <circle cx="218" cy="67" r="6" fill="#febc2e"/>
+  <circle cx="239" cy="67" r="6" fill="#28c840"/>
+  <!-- Title -->
+  <text x="600" y="72" font-family="'Courier New', monospace" font-size="12" fill="#8b949e" text-anchor="middle">farhan@portfolio — ~</text>
+  <!-- Divider -->
+  <line x1="170" y1="84" x2="1030" y2="84" stroke="#30363d" stroke-width="1"/>
+
+  <!-- PROMPT 1 -->
+  <text x="200" y="110" font-family="'Courier New', monospace" font-size="13" fill="#2ea043">farhan</text>
+  <text x="259" y="110" font-family="'Courier New', monospace" font-size="13" fill="#8b949e">@</text>
+  <text x="271" y="110" font-family="'Courier New', monospace" font-size="13" fill="#388bfd">dev</text>
+  <text x="302" y="110" font-family="'Courier New', monospace" font-size="13" fill="#8b949e"> ~ </text>
+  <text x="328" y="110" font-family="'Courier New', monospace" font-size="13" fill="#6e7681">$ </text>
+  <text x="344" y="110" font-family="'Courier New', monospace" font-size="13" fill="#c9d1d9">cat whoami.txt</text>
+
+  <!-- ASCII ART NAME — per-letter coloring: green (FARHAN) → blue (AHMED) -->
+  <text x="195" y="126" font-family="'Courier New', monospace" font-size="15" filter="url(#ascii-glow)" xml:space="preserve"><tspan fill="#238636"> _____ </tspan><tspan fill="#2ea043">_    </tspan><tspan fill="#3fb950">____  </tspan><tspan fill="#56d364">_   _ </tspan><tspan fill="#3fb950">   _    </tspan><tspan fill="#2ea043">_   _ </tspan><tspan fill="#58a6ff">     _    </tspan><tspan fill="#388bfd">_   _ </tspan><tspan fill="#79c0ff">__  __ </tspan><tspan fill="#388bfd">_____ </tspan><tspan fill="#1f6feb">____  </tspan></text>
+  <text x="195" y="147" font-family="'Courier New', monospace" font-size="15" filter="url(#ascii-glow)" xml:space="preserve"><tspan fill="#238636">|  ___/</tspan><tspan fill="#2ea043"> \  |</tspan><tspan fill="#3fb950">  _ \|</tspan><tspan fill="#56d364"> | | |</tspan><tspan fill="#3fb950">  / \  |</tspan><tspan fill="#2ea043"> \ | |</tspan><tspan fill="#58a6ff">    / \  |</tspan><tspan fill="#388bfd"> | | |</tspan><tspan fill="#79c0ff">  \/  |</tspan><tspan fill="#388bfd"> ____|</tspan><tspan fill="#1f6feb">  _ \ </tspan></text>
+  <text x="195" y="168" font-family="'Courier New', monospace" font-size="15" filter="url(#ascii-glow)" xml:space="preserve"><tspan fill="#238636">| |_ / </tspan><tspan fill="#2ea043">_ \ |</tspan><tspan fill="#3fb950"> |_) |</tspan><tspan fill="#56d364"> |_| |</tspan><tspan fill="#3fb950"> / _ \ |</tspan><tspan fill="#2ea043">  \| |</tspan><tspan fill="#58a6ff">   / _ \ |</tspan><tspan fill="#388bfd"> |_| |</tspan><tspan fill="#79c0ff"> |\/| |</tspan><tspan fill="#388bfd">  _| |</tspan><tspan fill="#1f6feb"> | | |</tspan></text>
+  <text x="195" y="189" font-family="'Courier New', monospace" font-size="15" filter="url(#ascii-glow)" xml:space="preserve"><tspan fill="#238636">|  _/ _</tspan><tspan fill="#2ea043">__ \|</tspan><tspan fill="#3fb950">  _ &lt;|</tspan><tspan fill="#56d364">  _  |</tspan><tspan fill="#3fb950">/ ___ \|</tspan><tspan fill="#2ea043"> |\  |</tspan><tspan fill="#58a6ff">  / ___ \|</tspan><tspan fill="#388bfd">  _  |</tspan><tspan fill="#79c0ff"> |  | |</tspan><tspan fill="#388bfd"> |___|</tspan><tspan fill="#1f6feb"> |_| |</tspan></text>
+  <text x="195" y="210" font-family="'Courier New', monospace" font-size="15" filter="url(#ascii-glow)" xml:space="preserve"><tspan fill="#238636">|_|/_/ </tspan><tspan fill="#2ea043">  \_\</tspan><tspan fill="#3fb950">_| \_\</tspan><tspan fill="#56d364">_| |_/</tspan><tspan fill="#3fb950">_/   \_\</tspan><tspan fill="#2ea043">_| \_|</tspan><tspan fill="#58a6ff"> /_/   \_\</tspan><tspan fill="#388bfd">_| |_|</tspan><tspan fill="#79c0ff">_|  |_|</tspan><tspan fill="#388bfd">_____|</tspan><tspan fill="#1f6feb">____/ </tspan></text>
+
+  <!-- PROMPT 2 -->
+  <text x="200" y="228" font-family="'Courier New', monospace" font-size="13" fill="#2ea043">farhan</text>
+  <text x="259" y="228" font-family="'Courier New', monospace" font-size="13" fill="#8b949e">@</text>
+  <text x="271" y="228" font-family="'Courier New', monospace" font-size="13" fill="#388bfd">dev</text>
+  <text x="302" y="228" font-family="'Courier New', monospace" font-size="13" fill="#8b949e"> ~ </text>
+  <text x="328" y="228" font-family="'Courier New', monospace" font-size="13" fill="#6e7681">$ </text>
+  <text x="344" y="228" font-family="'Courier New', monospace" font-size="13" fill="#c9d1d9">whoami --verbose</text>
+
+  <!-- OUTPUT: tighter, more distinctive -->
+  <text x="200" y="251" font-family="'Courier New', monospace" font-size="13" fill="#c9852a">role </text>
+  <text x="248" y="251" font-family="'Courier New', monospace" font-size="13" fill="#6e7681">→</text>
+  <text x="264" y="251" font-family="'Courier New', monospace" font-size="13" fill="#c9d1d9">Software Engineer · Full Stack Development</text>
+
+  <text x="200" y="269" font-family="'Courier New', monospace" font-size="13" fill="#c9852a">stack</text>
+  <text x="248" y="269" font-family="'Courier New', monospace" font-size="13" fill="#6e7681">→</text>
+  <text x="264" y="269" font-family="'Courier New', monospace" font-size="13" fill="#c9d1d9">Python · Java · C# · TypeScript · React · AWS</text>
+
+  <text x="200" y="287" font-family="'Courier New', monospace" font-size="13" fill="#c9852a">edu  </text>
+  <text x="248" y="287" font-family="'Courier New', monospace" font-size="13" fill="#6e7681">→</text>
+  <text x="264" y="287" font-family="'Courier New', monospace" font-size="13" fill="#c9d1d9">CS @ Iowa State University '26</text>
+
+  <text x="200" y="305" font-family="'Courier New', monospace" font-size="13" fill="#c9852a">focus</text>
+  <text x="248" y="305" font-family="'Courier New', monospace" font-size="13" fill="#6e7681">→</text>
+  <text x="264" y="305" font-family="'Courier New', monospace" font-size="13" fill="#c9d1d9">Cloud, AI/ML, OS </text>
+
+  <!-- PROMPT 3 + cursor -->
+  <text x="200" y="343" font-family="'Courier New', monospace" font-size="13" fill="#2ea043">farhan</text>
+  <text x="259" y="343" font-family="'Courier New', monospace" font-size="13" fill="#8b949e">@</text>
+  <text x="271" y="343" font-family="'Courier New', monospace" font-size="13" fill="#388bfd">dev</text>
+  <text x="302" y="343" font-family="'Courier New', monospace" font-size="13" fill="#8b949e"> ~ </text>
+  <text x="328" y="343" font-family="'Courier New', monospace" font-size="13" fill="#6e7681">$ </text>
+  <rect x="344" y="330" width="9" height="15" fill="#2ea043" opacity="0.85"/>
+</svg>
