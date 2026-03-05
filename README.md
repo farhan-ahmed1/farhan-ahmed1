@@ -6,15 +6,11 @@
 
 </div>
 
----
-
 <div align="center"><h2><code>whoami</code></h2></div>
 
 - Computer Science @ Iowa State University
 - Building [`hancover-action`](https://github.com/farhan-ahmed1/hancover-action) — a code coverage tool
 - Building [`sidrat`](https://www.sidratapp.com/) with [`Liban-Ahmed`](https://github.com/Liban-Ahmed)
-
----
 
 <div align="center"><h2><code>skills</code></h2></div>
 
@@ -48,8 +44,6 @@
   </tr>
 </table>
 </div>
-
----
 
 <div align="center"><h2><code>github stats</code></h2></div>
 
